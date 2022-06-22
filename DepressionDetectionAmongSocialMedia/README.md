@@ -1,5 +1,13 @@
 <h1 align="center">Depression Detection- AmongSocialMedia</h1>
 <h3 align="center">Depression is a psychological disorder that affects over three hundred million humans worldwide. A person who is depressed suffers from anxiety in day-to-day life, which affects that person in the relationship with their family and friends, leading to different diseases and in the worst-case death by suicide. With the growth of the social network, most people share their emotion, feelings, their thoughts on social media. If their depression can be detected early by analyzing their post, then by taking the necessary steps, a person can be saved from depression-related diseases, or in the best case he can be saved from committing suicide. In this research work, a hybrid model has been proposed that can detect depression by analyzing users’ textual posts. Deep learning algorithms were trained using the training data and then performance has been evaluated on the test data of the dataset of Reddit which was published for the pilot piece of work. The World Health Organization (WHO) predicts that depression disorders will be widespread in the next 20 years. We try to identify the most effective deep neural network architecture among a few selected architectures that were successfully used in natural language processing tasks. The proposed method employs Recurrent Neural Networks to compute the post representation of each individual. The representations are then combined with other content-based, behavior and living environment features to predict the depression label of the individual with Deep Neural Networks.</h3>
+<h></h>
+<h2 align="left">WorkFlow </h2>
+<p align="left">i)First, we collected the raw dataset from Twitter using Kaggle.</p>
+<p align="left">ii)Then we pre-processed the data using ‘nltk’ functions like Tokenizing, POS Tagging, Lemmatizing, Stop Words Removal, lowercase conversion, and duplicate data removal amongst many other methods.</p>
+<p align="left">iii)Now, we have sequenced the data using tokenizer() (for CNN-LSTM) and CountVectorizer() (for Machine  Learning). </p>
+<p align="left">iv)In the case of the CNN-LSTM model, the text sequences were converted into padded sequences and we sent the training padded sequences and validation padded sequences to the CNN-LSTM model.</p>
+<p align="left">v)Finally the models predict the result using the test case and give accuracy as a result. 
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
